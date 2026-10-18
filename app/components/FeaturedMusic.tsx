@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { motion } from "motion/react";
 import {
   ArrowDownRight,
@@ -64,41 +64,46 @@ export default function FeaturedMusic() {
             className="group relative"
           >
             <div className="relative aspect-square overflow-hidden border border-white/10 bg-[#20211c]">
-              {/* Abstract artwork: no invented album cover */}
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_70%_30%,rgba(217,233,67,0.28),transparent_32%),linear-gradient(135deg,#292b22_0%,#10110f_50%,#37382b_100%)] transition-transform duration-1000 group-hover:scale-105" />
+             
+<Image
+  src="/images/bg.jpg"
+  alt="Jellow Glow band — featured music fan page"
+  fill
+  priority={false}
+  sizes="(max-width: 1024px) 100vw, 50vw"
+  className="object-cover transition-transform duration-1000 group-hover:scale-110"
+/>
 
-              <div className="absolute inset-0 opacity-20 [background-image:repeating-linear-gradient(0deg,transparent,transparent_3px,rgba(255,255,255,0.12)_4px)]" />
+{/* Cinematic dark overlay */}
+<div className="absolute inset-0 bg-gradient-to-t from-[#10110f] via-[#10110f]/20 to-black/20" />
 
-              <div className="absolute inset-5 border border-white/20 sm:inset-8" />
+{/* Acid-yellow glow */}
+<div className="absolute inset-0 bg-[#d9e943]/5 mix-blend-screen transition-colors duration-500 group-hover:bg-[#d9e943]/15" />
 
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
-                className="absolute left-1/2 top-1/2 flex aspect-square w-[58%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white/20"
-              >
-                <div className="absolute inset-3 rounded-full border border-[#d9e943]/40" />
-                <div className="absolute inset-[22%] rounded-full border border-white/20" />
-                <div className="h-4 w-4 rounded-full bg-[#d9e943] shadow-[0_0_35px_rgba(217,233,67,0.8)] sm:h-6 sm:w-6" />
-              </motion.div>
+{/* Frame */}
+<div className="absolute inset-5 border border-white/25 sm:inset-8" />
 
-              <div className="absolute left-8 top-8">
-                <p className="font-mono text-[9px] tracking-[0.25em] text-white/60">
-                  JG / FREQUENCY
-                </p>
-              </div>
+{/* Top label */}
+<div className="absolute left-8 top-8">
+  <p className="font-mono text-[9px] tracking-[0.25em] text-white/80">
+    JG / FREQUENCY
+  </p>
+</div>
 
-              <div className="absolute bottom-8 left-8 right-8 flex items-end justify-between">
-                <h3 className="text-4xl font-black leading-[0.8] tracking-[-0.08em] sm:text-6xl">
-                  SOUND
-                  <br />
-                  <span className="text-[#d9e943]">IN MOTION.</span>
-                </h3>
+{/* Bottom title */}
+<div className="absolute bottom-8 left-8 right-8 flex items-end justify-between">
+  <h3 className="text-4xl font-black leading-[0.8] tracking-[-0.08em] sm:text-6xl">
+    SOUND
+    <br />
+    <span className="text-[#d9e943]">IN MOTION.</span>
+  </h3>
 
-                <Disc3
-                  size={30}
-                  className="text-[#d9e943] transition-transform duration-700 group-hover:rotate-180"
-                />
-              </div>
+  <Disc3
+    size={30}
+    className="shrink-0 text-[#d9e943] transition-transform duration-700 group-hover:rotate-180"
+  />
+</div>
+
             </div>
 
             <div className="mt-3 flex justify-between font-mono text-[9px] tracking-[0.15em] text-white/40">
