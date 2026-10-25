@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jellow Glow 🎸
 
-## Getting Started
+A fan-made website celebrating the music, energy, and world of **Jellow Glow**. This project brings together the band's sound, member profiles, live moments, and music archives in one immersive digital experience.
 
-First, run the development server:
+🌐 **Live Website:** https://jellow-glow.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- **Music Discovery:** Explore the band's sound and discover featured music.
+- **Band Profiles:** Get to know the four members — Koto (Vocals), Genki (Guitar), Yusei (Drums), and Rukia (Bass).
+- **Live Experience:** A dedicated section for concert announcements, tour dates, and live performances.
+- **Music Archive:** Explore music videos, live sessions, and behind-the-scenes content.
+- **Social Links:** Quick access to music and social platforms.
+- **Immersive Design:** A visually engaging experience inspired by music, energy, and artistic expression.
+
+## 🛠️ Tech Stack
+
+- Next.js
+- React
+- JavaScript
+- CSS
+- Vercel (Deployment)
+
+*Note: Confirm the technologies against your project's source code and update this list if necessary.*
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js installed on your system
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <YOUR_REPOSITORY_URL>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd jellow-glow
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit:
+
+   ```text
+   http://localhost:3000
+   ```
+
+## 📁 Project Structure
+
+A typical Next.js project structure may look like this:
+
+```text
+jellow-glow/
+├── public/          # Static assets and images
+├── src/
+│   ├── app/         # App routes and pages
+│   ├── components/  # Reusable UI components
+│   └── styles/      # Stylesheets
+├── package.json     # Dependencies and scripts
+├── next.config.js   # Next.js configuration
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*Your actual folder structure may differ depending on how the project was created.*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌍 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website is deployed using Vercel.
 
-## Learn More
+To deploy your own version:
 
-To learn more about Next.js, take a look at the following resources:
+1. Push your project to a GitHub repository.
+2. Import the repository into [Vercel](https://vercel.com/).
+3. Configure the build settings if required.
+4. Deploy and access your live website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Project Purpose
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project was created as a fan-made digital experience to celebrate Jellow Glow's music, members, and artistic identity. It combines music discovery, visual storytelling, and curated media into a single website.
 
-## Deploy on Vercel
+## ⚠️ Disclaimer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This is an **unofficial fan project** and is not affiliated with, endorsed by, or officially connected to Jellow Glow. All music, images, names, and other third-party materials belong to their respective owners.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👩‍💻 Author
+
+Created with appreciation for the music and the community around it.
+
+---
+
+**Feel the frequency. Stay loud. 🎶**
